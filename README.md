@@ -13,6 +13,7 @@ Install [Node.js](https://nodejs.org/) and npm. Use a recent Node.js version tha
 
 ## Project structure
 
+```text
 Unstaged/
 ├── backend/
 │   ├── index.ts
@@ -23,6 +24,7 @@ Unstaged/
     ├── views/
     ├── components/
     └── package.json
+```
 
 ## Setup
 
