@@ -1,0 +1,82 @@
+/* Profile page and picture starts */
+.profile_page {
+  min-height: 100vh;
+  background-color: #f2f2f2;
+  padding: 32px;
+}
+
+.profile_picture {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 16px;
+}
+/* Profile page and picture ends */
+
+/* Header starts */
+.profile_header {
+  max-width: 700px;
+  margin: 0 auto 32px;
+  text-align: center;
+}
+
+.profile_header h1 {
+  margin: 0;
+  margin-top: -10px;
+}
+
+.profile_header p {
+  color: #000000;
+  margin: 8px 0 20px;
+}
+
+.profile_header button {
+  padding: 7px 10px;
+  border-radius: 6px;
+  border-color: #ffe53b45;
+  background-color: #ffdd00;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.profile_header button:hover {
+  background-color: #ffe436;
+}
+/* Header ends */
+
+/* Review card starts */
+.user_reviews {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.review_card {
+  background-color: white;
+  color: black;
+  padding: 24px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.review_card h2 {
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+.review_card p {
+  margin: 6px 0;
+}
+
+.username {
+  color: #999999;
+  font-size: 12px;
+}
+/* Review card ends */
+
+/* Buttons starts */
+.review_buttons {
+  display: flex;
+  justify-content: left;
+  gap: 5px;
+}
+/* Buttons ends */

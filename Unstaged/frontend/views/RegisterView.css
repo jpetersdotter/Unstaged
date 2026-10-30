@@ -1,0 +1,65 @@
+/* Body starts */
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Body ends */
+
+/* RegisterView starts */
+#RegisterView {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+  background-color: #03007c;
+}
+/* RegisterView ends */
+
+/* Buttons starts */
+#RegisterView input,
+#RegisterView button {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 12px;
+  padding: 12px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#RegisterView button {
+  background-color: #e1b401;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#RegisterView button:hover {
+  background-color: #efbf00;
+}
+
+#RegisterView button:last-of-type {
+  background-color: #8a8a8aaf;
+  cursor: pointer;
+}
+
+#RegisterView button:last-of-type:hover {
+  background-color: #999999af;
+}
+/* Buttons ends */
+
+/* Text starts */
+#RegisterView .main_title {
+  margin-bottom: 12px;
+}
+
+#RegisterView p {
+  margin-top: 3px;
+}
+/* Text ends */

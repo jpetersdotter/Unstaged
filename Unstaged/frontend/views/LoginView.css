@@ -1,0 +1,65 @@
+/* Body starts */
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Body ends */
+
+/* LoginView starts */
+#LoginView {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+  background-color: #03007c;
+}
+/* LogInView ends */
+
+/* Buttons starts */
+#LoginView input,
+#LoginView button {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 12px;
+  padding: 12px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#LoginView button {
+  background-color: #e1b401;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#LoginView button:hover {
+  background-color: #efbf00;
+}
+
+#LoginView button:last-of-type {
+  background-color: #8a8a8aaf;
+  cursor: pointer;
+}
+
+#LoginView button:last-of-type:hover {
+  background-color: #999999af;
+}
+/* Buttons ends */
+
+/* Text starts */
+h1 {
+  margin-bottom: 12px;
+}
+
+p {
+  margin-top: 3px;
+}
+/* Text ends */

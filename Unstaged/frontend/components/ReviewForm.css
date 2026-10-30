@@ -1,0 +1,47 @@
+/* Modal backdrop starts */
+.modal_backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+/* Modal backdrop ends */
+
+/* Modal starts */
+.modal {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.modal_buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+/* Modal ends */
+
+/* Error message starts */
+.error_message {
+  color: rgb(255, 0, 0);
+}
+
+/* h3 starts */
+h3 {
+  font-size: 20px;
+  margin-bottom: -5px;
+  text-align: center;
+}
+/* h3 ends */
